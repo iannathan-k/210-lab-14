@@ -11,9 +11,9 @@ class Color {
         int blue;
 
     public:
-        void setRed(int red) {this->red = red;};
-        void setGreen(int green) {this->green = green;};
-        void setBlue(int blue) {this->blue = blue;};
+        void setRed(int r) {red = r;} // Not sure if pointer notation has been covered yet
+        void setGreen(int g) {green = g;} // But I think this->green = green is neater
+        void setBlue(int b) {blue = b;}
         int getRed() const {return red;}
         int getGreen() const {return green;}
         int getBlue() const {return blue;}
